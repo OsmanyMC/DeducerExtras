@@ -1,0 +1,13 @@
+Package: DeducerExtras
+Type: Package
+Title: Additional Dialogs and Functions for Deducer
+Version: 1.8
+Date: 2015-10-12
+Author: Ian Fellows and Helios De Rosario
+Maintainer: Ian Fellows <ian@fellstat.com>
+Description: Added functionality for Deducer. This package includes additional dialogs for calculating distribution function values, cluster analysis and more.
+Depends: Deducer (>= 0.4-4), irr
+Suggests: pwr, rgl
+Imports: rJava, JGR
+License: GPL-2
+LazyLoad: yes

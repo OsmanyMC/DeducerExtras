@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+import(
+  rJava,
+  Deducer,
+  irr
+)
+importFrom("JGR", jgr.addMenuSeparator, jgr.addMenuItem)
+S3method(predict, kmeans)
